@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="./asset/style.css">
+
+    <!-- Icon Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="calculator dark">
+            <div class="themeToggler active">
+                <i class="togglerIcon"></i>
+
+            </div>
+
+            <div class="displayScreen">
+                <div id="display"></div>
+            </div>
+
+            <div class="buttons">
+                <table> 
+                    <tr>
+                        <td><button class="btnOperator" id="clear">C</button></td>
+                        <td><button class="btnOperator" id="/">&divide;</button></td>
+                        <td><button class="btnOperator" id="*">&times;</button></td>
+                        <td><button class="btnOperator" id="backspace"><i class="fas fa-backspace"></i></button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="btnNumber" id="7">7</button></td>
+                        <td><button class="btnNumber" id="8">8</button></td>
+                        <td><button class="btnNumber" id="9">9</button></td>
+                        <td><button class="btnOperator" id="-">-</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="btnNumber" id="4">4</button></td>
+                        <td><button class="btnNumber" id="5">5</button></td>
+                        <td><button class="btnNumber" id="6">6</button></td>
+                        <td><button class="btnOperator" id="+">+</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><button class="btnNumber" id="1">1</button></td>
+                        <td><button class="btnNumber" id="2">2</button></td>
+                        <td><button class="btnNumber" id="3">3</button></td>
+                        <td rowspan="2"><button class="btnEquals" id="equals">=</button></td>
+                    </tr>
+                        
+                        
+                    <tr>
+                        <td><button class="btnOperator" id="(">(</button></td>
+                        <td><button class="btnNumber" id="0">0</button></td>
+                        <td><button class="btnOperator" id=")">)</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>Develped by <a href="https://www.facebook.com/tanmoy010/" target="_blank">Tanmoy</a></footer>
+
+
+    <!-- JS Links -->
+    <script src="./asset/app.js"></script>
+</body>
+</html>
